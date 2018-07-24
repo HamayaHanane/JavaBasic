@@ -12,6 +12,14 @@ public class PTra02_10 {
 		int coffee = 120;	// コーヒーの値段
 		int snack = 200;	// スナック菓子
 
+		int Price =coffee+coffee+snack;
+		double Tax=1.08;
+		        Tax*=(Price);
+		        Tax-=0.00000000000005;
+
+
+		System.out.println("合計"+Tax);
+
 		/*
 		 * ●一本120円（税別）の缶コーヒーを2本
 		 * ●一袋200円（税別）のスナック菓子を1袋
