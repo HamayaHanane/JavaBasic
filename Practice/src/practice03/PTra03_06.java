@@ -13,6 +13,16 @@ public class PTra03_06 {
 		// ランダムで数字を生成するプログラムです。
 		// 下記の命令を実行すると変数randomに、0以上、変数limitNumber未満の数字がランダムで代入されます
 		int random = new java.util.Random().nextInt(limitNumber + 1);
+		if(random<=100 && random>=71) {
+			System.out.println("☆☆☆☆☆");
+		}else if(random>=31 && random<=70) {
+			System.out.println("☆☆☆☆");
+		}else if(random<=30){
+			System.out.println("☆☆☆");
+		}
+	}
+}
+
 
 		//---------------------ここから本題-----------------------
 		/*
@@ -25,6 +35,3 @@ public class PTra03_06 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-
-	}
-}

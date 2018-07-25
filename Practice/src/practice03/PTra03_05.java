@@ -20,6 +20,15 @@ public class PTra03_05 {
 		// 文字列を数字に変換して、変数numに代入します
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになります
 		int num = Integer.parseInt(line);
+		if(num>=75 && num<=100) {
+			System.out.println("雨が降る確率が高いです。");
+		}else if(num>=30 && num<=74) {
+			System.out.println("雨が降るかもしれないです。");
+		}else if(num<30 && num>=0) {
+			System.out.println("雨はまず降らないでしょう。");
+		}else if(num>100 || num<0) {
+			System.out.println("不正な値が入力されました。");
+		}
 
 		//---------------------ここから本題-----------------------
 		/*

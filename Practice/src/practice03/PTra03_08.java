@@ -24,6 +24,24 @@ public class PTra03_08 {
 		int num = scanner.nextInt();
 
 		int money = 1000;	// 所持金
+		int orange =150;
+		int apple =160;
+	    int coffee =200;
+	    
+		switch(num) {
+		case 1:
+			System.out.println("オレンジジュース150円です");
+			System.out.println("所持金は"+(money-orange)+"円です");
+			break;
+		case 2:
+			System.out.println("リンゴジュース160円です");
+			System.out.println("所持金は"+(money-apple)+"円です");
+			break;
+		case 3:
+			System.out.println("コーヒー200円です");
+			System.out.println("所持金は"+(money-coffee)+"円です");
+			break;
+			}
 
 		//---------------------ここから本題-----------------------
 		/*

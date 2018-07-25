@@ -20,7 +20,18 @@ public class PTra03_07 {
 		// 文字列を数字に変換して、変数numに代入します
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになります
 		int num = Integer.parseInt(line);
-
+		switch (num) {
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+			System.out.println(num);
+			break;
+		   default:
+			   System.out.println("選択したのは、1~5以外です");
+			
+		}
 		//---------------------ここから本題-----------------------
 		/*
 		 * ★ 以下の仕様に沿ってプログラムを完成させてください
