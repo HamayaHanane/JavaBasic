@@ -10,22 +10,24 @@ public class PTra08_01 {
 	public static void main(String[] args) {
 
 		// ★ 変数receiveを宣言し、メソッドnumberを実行した結果を代入してください
-
-
-		// ★ 変数receiveを出力してください
-
+		// ★ 変数receiveを出力してくださ
+		/*
+		 * 以下の仕様でメソッドを作成しました
+		 *
+		 * 戻り値		：int
+		 * メソッド名	：number
+		 * 引数			：なし
+		 *
+		 * 100を返すメソッド
+		 */
+		
+		int receive=number();
+		System.out.println(receive);
+		
 	}
 
-	/*
-	 * 以下の仕様でメソッドを作成しました
-	 *
-	 * 戻り値		：int
-	 * メソッド名	：number
-	 * 引数			：なし
-	 *
-	 * 100を返すメソッド
-	 */
 	public static int number() {
 		return 100;
+		
 	}
 }
